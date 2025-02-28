@@ -111,11 +111,11 @@ LLM Chat 的通用知识问答功能充分利用了大模型的原生对话能�
    
 3. 初始化关系型数据库表
     ```bash
-    python /fufan-chat-api/server/db/create_all_model.py
+    python /chat/server/db/create_all_model.py
     ```
 4. 初始化Faiss向量数据库
     ```bash
-    python /fufan-chat-api/server/knowledge_base/init_vs.py
+    python /chat/server/knowledge_base/init_vs.py
     ```
    
 6. 启动后端服务：
