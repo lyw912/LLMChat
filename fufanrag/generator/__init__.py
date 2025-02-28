@@ -1,1 +1,0 @@
-from fufanrag.generator.generator import *
